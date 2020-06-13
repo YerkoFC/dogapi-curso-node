@@ -1,0 +1,17 @@
+{
+  "name": "webaplication-dogapi",
+  "version": "1.0.0",
+  "description": "A web aplication using dog API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yerko Foncea",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.4"
+  }
+}

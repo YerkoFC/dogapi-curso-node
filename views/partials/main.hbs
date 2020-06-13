@@ -1,0 +1,29 @@
+<main class="main">
+    <h1 class="title"> Look for a dog </h1>
+    <form action="breeds" method="POST" class="form-input">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Breed</label>
+            <input list="breeds" type="text" class="form-control" name="breed" id="exampleInputEmail1"
+                placeholder="Write a breed">
+            <datalist id="breeds">
+                <option value="Akita"></option>
+                <option value="Beagle"></option>
+                <option value="Chihuahua"></option>
+                <option value="Dalmatian"></option>
+                <option value="Pug"></option>
+            </datalist>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary btn-block" value="Send">
+            {{!-- <button class="btn btn-primary btn-block radius" name="btn" id="btn">
+                        Send
+                    </button> --}}
+        </div>
+
+    </form>
+
+    <div class="results">
+        <h3 class="result-title">image</h3>
+        <img src="{{ url }}" alt="" class="dog-image">
+    </div>
+</main>
